@@ -5,7 +5,7 @@ Javascript (0418 ~ 0501)
 - var : 변수 중복 선언 O
 
 ```
-var varName = "sky";    //함수 외부에서 선언됐을 경우 전역 변수가 된다  
+var varName = "sky";    //함수 외부에서 선언됐을 경우 전역 변수로 기능  
 console.log(varName);  
 var varName = "earth";    //변수 중복 선언 가능  
 console.log(varName);  
@@ -19,7 +19,7 @@ console.log(varName);
 ```
 let letName = "james";  
 console.log(letName);  
-let letName = "cameron";    //error => 변수 중복선언  
+let letName = "cameron";    //error => 변수 중복선언 불가능 
 letName = "cameron";  
 ```
 
